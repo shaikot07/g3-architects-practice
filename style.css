@@ -73,7 +73,7 @@ nav li {
 /* header style css end */
 /* main section style start  */
 main{
-      max-width: 1070px;
+      max-width: 1140px;
       margin: 0 auto;
       border: 2px solid brown;
 }
@@ -117,6 +117,104 @@ main{
       padding-right: 20px;
 }
 /* teams style css End  */
+/* feature style csss start */
+.feature-container{
+      margin-top: 130px;
+      display: flex;
+      gap: 140px;
+
+}
+.feature-content{
+     
+}
+.feture-content-title{
+      color: #131313;
+      font-size: 28px;
+      font-weight: 700;
+      padding: 3px 15px;
+      border-left: 2px solid #FF900E;
+}
+.feture-content-discription{
+      color: #727272;
+      font-size: 12px;
+      font-weight: 400;
+      margin-bottom: 30px;
+}
+.box{
+      border-radius: 8px;
+      background: #FFF;
+      box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+      padding: 5px 23px;
+      margin-bottom: 10px;
+}
+.box h4{
+      color: #131313;
+      font-size: 14px;
+      font-weight: 600;
+}
+.box p{
+      color: #727272;
+      font-size: 12px;
+      font-weight: 400;
+}
+.feature-image{
+      width: 100%;
+      
+}
+.feature-image img{
+      width: 100%;
+      height: 90%;
+     
+}
+.ten-years-badge{
+      border-radius: 8px;
+      background: #FF900E;
+      color: #FFF;
+      width: 117px;
+      padding: 14px;
+      height: 63px;
+      text-align: center;
+}
+.ten-years-badge h2{
+      font-size: 25px;
+      margin:0;
+}
+/* feature style csss End */
+/* some fact style css start */
+.fact-section{
+      margin: 30px 0;
+}
+.fact-section-title{
+      color: #131313;
+      font-size: 28px;
+      font-weight: 700;
+}
+.fact-section-discription{
+      color: #727272;
+      font-size: 12px;
+      font-weight: 400;
+      margin-bottom: 10px;
+}
+.fact-container{
+      display: flex;
+      justify-content: space-around;
+}
+.fact-box{
+      width: 146px;
+      height: 157px;
+      border-radius: 8px;
+      border: 1px solid #FF900E;
+      text-align: center;
+      padding: 20px;
+      margin-top: 60px;
+}
+.fact-box p{
+      color: #727272;
+      font-size: 12px;
+
+}
+/* some fact style css end */
+
 /* main section style End  */
 
 
@@ -130,7 +228,7 @@ main{
       header{
             padding: 20px;
       }
-      nav,.team-container{
+      nav,.team-container,.feature-container,.fact-container{
             flex-direction: column;
       }
       nav li{
@@ -146,7 +244,22 @@ main{
       .team-container{
             padding: 55px 5px;
       }
+      .feature-container{
+            padding: 0 15px;
+            margin-top: 4px;
+      }
+      .fact-section {
+            margin: 30px 0;
+            padding: 20px 15px;
+      }
+      .fact-container{
+            align-items: center;
+      }
+
+
+
 }
+
 
 
 
@@ -156,7 +269,7 @@ main{
       header{
             padding: 50px 8px;
       }
-      nav,.team-container{
+      nav,.team-container,.feature-container,.fact-container{
             flex-direction: column;
       }
       .banner-info{
@@ -168,6 +281,26 @@ main{
       .team-info{
             text-align: center;
       }
+      .feature-container {
+            margin-top: 130px;
+            display: flex;
+            gap: 140px;
+            padding: 0 63px;
+      }
+      .fact-section {
+            margin: 30px 48px;
+            padding: 30px 30px;
+      }
+      .fact-container {
+            /* flex-direction: column;
+            align-items: center; */
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            margin-left: 106px
+        }
+
+      
+      
 
       
 }
