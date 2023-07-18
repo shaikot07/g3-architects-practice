@@ -3,10 +3,112 @@ body{
       font-family: 'Open Sans', sans-serif;
       font-family: 'Work Sans', sans-serif;
 }
-h2{
-      color: #ad1b1b;
+/* sheard style css start  */
+.btn-primery{
+      border-radius: 8px;
+      background: #FF900E;
+      padding: 15px 20px;
+      border: none;
+      color: white;
+      font-size: 1.25rem;
+      font-weight: ;
+}
+/* sheard style css End */
+
+
+/* header style css start */
+header{
+      background-color: rgba(255, 144, 14, 0.10);
+      padding: 50px 240px;
+}
+/* nav style css start  */
+nav{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+}
+nav h3{
+      color: #131313;
+      font-size: 2rem;
+      font-weight: 700;
+
+}
+nav > ul{
+      display: flex;
+      align-items: center;
+}
+nav li {
+      list-style: none;
+      margin-right: 30px;
+      font-weight: 500;
+      font-size: 18px;
+      color:  #424242;
+}
+/* nav style css End */
+/* banner style start  */
+
+
+.banner-info{
+      max-width: 800px;
+      text-align: center;
+      margin: 100px auto;
+}
+.banner-title{
+      color: #131313;
+      font-family: Work Sans;
+      font-size:3rem;
+      font-weight: 700;
+
+}
+.banner-description{
+      color: #727272;
+      font-size: 16px;
       font-weight: 400;
 }
-p{
-      font-size: 16px;
+.image{
+      width: 100%;
+}
+/* banner style End  */
+
+/* header style css end */
+
+
+
+
+
+
+
+/* responsiv media queries phone */
+@media screen and (max-width:567px) {
+      header{
+            padding: 20px;
+      }
+      nav{
+            flex-direction: column;
+      }
+      nav li{
+            margin-right: 15px;
+            
+      }
+      .banner-info{
+            margin: 37px auto;
+      }
+}
+
+
+
+
+/* responsiv media queries Tablet or medium devices */
+@media screen and (min-width:577px) and (max-width:960px) {
+      header{
+            padding: 50px 8px;
+      }
+      nav{
+            flex-direction: column;
+      }
+      .banner-info{
+            margin: 60px auto;
+      }
+
+      
 }
