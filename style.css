@@ -4,14 +4,14 @@ body{
       font-family: 'Work Sans', sans-serif;
 }
 /* sheard style css start  */
-.btn-primery{
+.btn-primary{
       border-radius: 8px;
       background: #FF900E;
       padding: 15px 20px;
       border: none;
       color: white;
       font-size: 1.25rem;
-      font-weight: ;
+      
 }
 /* sheard style css End */
 
@@ -71,6 +71,53 @@ nav li {
 /* banner style End  */
 
 /* header style css end */
+/* main section style start  */
+main{
+      max-width: 1070px;
+      margin: 0 auto;
+      border: 2px solid brown;
+}
+
+/* teams style css start  */
+.team-container{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+}
+.team-image{
+      display: grid;
+      grid-template-columns: repeat(2,1fr);
+      gap: 20px;
+      padding: 50px 0;
+     
+}
+.team-info{
+      border: 1px solid aquamarine;
+      padding: 10px 50px;
+
+}
+.team-title{
+      color: #131313;
+      font-size: 35px;
+      font-weight: 700;
+}
+.quick{
+      color: #727272;
+      font-size: 25px;
+      font-weight: 700;
+}
+.featur{
+      color: #FF900E;
+}
+.team-discription{
+      color: #727272;
+      font-size: 11px;
+      font-weight: 400;
+      padding-bottom: 20px;
+      padding-right: 20px;
+}
+/* teams style css End  */
+/* main section style End  */
 
 
 
@@ -83,7 +130,7 @@ nav li {
       header{
             padding: 20px;
       }
-      nav{
+      nav,.team-container{
             flex-direction: column;
       }
       nav li{
@@ -92,6 +139,12 @@ nav li {
       }
       .banner-info{
             margin: 37px auto;
+      }
+      .team-image{
+            grid-template-columns: repeat(1,1fr);
+      }
+      .team-container{
+            padding: 55px 5px;
       }
 }
 
@@ -103,11 +156,17 @@ nav li {
       header{
             padding: 50px 8px;
       }
-      nav{
+      nav,.team-container{
             flex-direction: column;
       }
       .banner-info{
             margin: 60px auto;
+      }
+      .team-image{
+            padding:0 50px;
+      }
+      .team-info{
+            text-align: center;
       }
 
       
